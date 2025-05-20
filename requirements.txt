@@ -2,4 +2,5 @@ tensorflow
 matplotlib
 numpy
 opencv-python
-streamlit
+streamlit  
+streamlit-webrtc
