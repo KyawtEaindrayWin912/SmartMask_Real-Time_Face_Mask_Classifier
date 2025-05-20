@@ -1,6 +1,8 @@
-tensorflow
-matplotlib
-numpy
-opencv-python
-streamlit  
-streamlit-webrtc
+matplotlib==3.10.3
+opencv-python==4.11.0.86
+numpy==2.0.0
+tensorflow==2.19.0
+scikit-learn==1.6.1
+streamlit==1.37.1
+streamlit-webrtc==0.62.4
+
