@@ -23,5 +23,5 @@ See `requirements.txt`. Installed automatically on Streamlit Cloud.
 
 ```bash
 pip install -r requirements.txt
-streamlit run app/app_realtime.py
+streamlit run app/realtime_app.py
 
