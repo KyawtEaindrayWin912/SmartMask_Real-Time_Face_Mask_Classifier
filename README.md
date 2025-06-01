@@ -1,19 +1,30 @@
-# SmartMask_Real-Time_Face_Mask_Classifier
-Face mask classification using MobileNetV2 and Streamlit
+# SmartMask: Real-Time & Image-Based Face Mask Classifier
 
-# Real-Time Face Mask Detection Web App 😷
+Face mask classification using MobileNetV2 and Streamlit.
 
-This is a Streamlit web app that uses your webcam to detect faces and classify if the person is:
-- Wearing a mask properly
-- Not wearing a mask
-- Wearing a mask incorrectly
+---
 
-## 🔧 Features
+## Overview
 
-- Real-time webcam input
-- Face detection + bounding box
-- Mask classification using TensorFlow
-- Color-coded labels for easy visual feedback
+This project contains two Streamlit web apps for face mask detection:
+
+- **Image Classification App** (`app/app.py`): Upload an image to classify whether a person is wearing a mask properly, not wearing a mask, or wearing it incorrectly.
+- **Real-Time Webcam App** (`app/realtime_app.py`): Use your webcam for live face mask detection with face bounding boxes and color-coded labels.
+
+Both apps use a MobileNetV2-based TensorFlow model for classification.
+
+---
+
+## Features
+
+- Real-time webcam input for live mask detection  
+- Image upload classification  
+- Face detection with bounding boxes  
+- Mask classification with clear, color-coded labels  
+- Simple and intuitive user interface  
+
+---
+
 
 ## 📦 Requirements
 
@@ -24,4 +35,5 @@ See `requirements.txt`. Installed automatically on Streamlit Cloud.
 ```bash
 pip install -r requirements.txt
 streamlit run app/realtime_app.py
+streamlit run app/app.py
 
